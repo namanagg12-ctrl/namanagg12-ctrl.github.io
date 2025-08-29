@@ -1,4 +1,4 @@
-const form = document.querySelector('form[action^="https://formspree.io"]');
+const form = document.getElementById('contact-form');
 
 if (form) {
   form.addEventListener('submit', function(e) {
